@@ -32,7 +32,7 @@ let calculator = {
     divide: divide = (a, b) => a / b
   };
 
-let resultAdd = add(10, 20);
+let resultAdd = calculator.add(10, 20);
 console.log(resultAdd);
 
 let resultDivide = divide(3000, 10);
