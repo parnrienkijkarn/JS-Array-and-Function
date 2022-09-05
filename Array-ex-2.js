@@ -27,12 +27,12 @@ const updateEmployees = employees.push(
   {
     name: "Alicia",
     age: 29,
-    hobbies: "Shopping, Reading Novels",
+    hobbies: ["Shopping", "Reading Novels"],
   },
   {
     name: "Kody",
     age: 19,
-    hobbies: "Computer games, Wakeboard",
+    hobbies: ["Computer games", "Wakeboard"],
   }
 );
 console.log(employees);

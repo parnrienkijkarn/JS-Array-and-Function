@@ -47,8 +47,9 @@ console.log(Array.isArray(orders));
 let isArray = orders;
 //
 
-let creditCardTypeOfBlindermann = orders[2].creditCardType;
+let creditCardTypeOfBlindermann = orders[2].creditCardType; //switch
 orders[2].creditCardType = "Visa";
+// creditCardTypeOfBlindermann = "Visa" // if I want to reassign a new value to "Visa", this has to be done
 console.log(orders[2].creditCardType); // this one
 console.log(creditCardTypeOfBlindermann); // and this one
 console.log(orders[2]);

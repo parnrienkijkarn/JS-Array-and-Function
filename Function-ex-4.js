@@ -43,5 +43,5 @@ let calculator = {
 let resultAdd = calculator.add(10, 20);
 console.log(resultAdd);
 
-let resultDivide = divide(3000, 10);
+let resultDivide = calculator.divide(3000, 10);
 console.log(resultDivide);
